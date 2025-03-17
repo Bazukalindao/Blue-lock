@@ -608,14 +608,14 @@ local function startCFrameSpeed()
 end
 
 local Window = Luna:CreateWindow({
-    Name = "The BillDev Hub (Blue Lock Rivals)",
-    Subtitle = "by Galaxy/Jah/Whohurtyoudear",
+    Name = "Bazuka Hub (Blue Lock Rivals)",
+    Subtitle = "by Bazuka",
     LogoID = "75237883871377",
     LoadingEnabled = true,
-    LoadingTitle = "TheBillDevHub (Blue Lock Rivals)",
-    LoadingSubtitle = "by Galaxy/Jah/Whohurtyoudear",
+    LoadingTitle = "Bazuka Hub (Blue Lock Rivals)",
+    LoadingSubtitle = "by Bazuka",
     ConfigSettings = {
-        RootFolder = "BillDevHub", 
+        RootFolder = "Bazuka Hub", 
         ConfigFolder = "Configs", 
         AutoLoadConfig = true 
     },
@@ -623,7 +623,7 @@ local Window = Luna:CreateWindow({
 
 Window:CreateHomeTab({
     SupportedExecutors = {"Delta", "Fluxus", "Codex", "Cryptic", "Vegax", "Trigon", "Synapse X", "Script-Ware", "KRNL", "Seliware", "Solara", "Xeno", "ZORARA", "Luna", "Nihon", "JJsploit", "AWP", "Wave", "Ronix"},
-    DiscordInvite = "https://discord.gg/D3T4ArjBqk",
+    DiscordInvite = "https://discord.gg/bZanwy7wqm",
     Icon = 75237883871377,
 })
 local MainTab = Window:CreateTab({
